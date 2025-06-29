@@ -34,16 +34,16 @@ A simple web-based IT support ticket system built with **Flask**, **MySQL**, **H
 
 ticket-tracker/
 │
-├── app.py
-├── config.py
-├── templates/
-│ ├── index.html
-│ ├── ticket_status.html
-│ ├── admin_login.html
-│ ├── admin_dashboard.html
-├── static/
-│ └── style.css
-├── db.sql
-├── requirements.txt
-└── README.md
+├── app.py                     # Main Flask application
+├── config.py                  # Configuration for database and email
+├── templates/                 # HTML templates for the frontend
+│   ├── index.html             # User ticket submission page
+│   ├── ticket_status.html     # User ticket status page
+│   ├── admin_login.html       # Admin login page
+│   ├── admin_dashboard.html   # Admin dashboard to view & update tickets
+├── static/                    # Static files like CSS
+│   └── style.css              # Stylesheet for the application
+├── db.sql                     # SQL script to set up database tables
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation
 
